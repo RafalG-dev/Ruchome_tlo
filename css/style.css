@@ -8,6 +8,11 @@
         position: absolute;
         top: 50%;
         left: 50%;
+        color: blue;
+        overflow: hidden;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        background-color: rgba(123, 192, 102, 0.3);
     }
     
     .element_z_tlem {
@@ -16,11 +21,10 @@
         margin-left: auto;
         margin-right: auto;
         width: 80vw;
-        height: 80vh;
+        height: 60vh;
         position: relative;
+        animation: move 10s linear infinite alternate;
     }
-    
-    .header {}
     
     .header__h1 {
         color: red;
@@ -34,5 +38,13 @@
     .main {
         margin-left: auto;
         margin-right: auto;
-        color: blue;
+    }
+    
+    @keyframes move {
+        0% {
+            background-position: 0 0, 0 0, 0 0;
+        }
+        100% {
+            background-position: 1000px 0, 750px 0, 500px 0;
+        }
     }
