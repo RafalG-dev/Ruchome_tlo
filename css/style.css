@@ -1,0 +1,38 @@
+    .akapit {
+        text-align: center;
+        border: 1px solid grey;
+        width: 30%;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    
+    .element_z_tlem {
+        background-image: url("/pictures/para1.png"), url("/pictures/para2.png"), url("/pictures/para3.png");
+        border: 3px solid gray;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+        height: 80vh;
+        position: relative;
+    }
+    
+    .header {}
+    
+    .header__h1 {
+        color: red;
+        border: 1px solid red;
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .main {
+        margin-left: auto;
+        margin-right: auto;
+        color: blue;
+    }
